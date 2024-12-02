@@ -32,93 +32,113 @@ Publish the website in the LocalHost.
 
 ## PROGRAM:
 ```
+hari.html
+
 <html>
     <head>
-        <style>
-            body {
-                margin: 10;
-                padding: 0;
-                background-color: #b6b6b6; 
-            }
-            .container {
-                position: relative; 
-                width: 360px; 
-                height: 500px; 
-                margin: 5px auto; 
-                background-image: url(hari.jpg);
-                background-size: contain; 
-                border: 2px solid rgb(255, 255, 255);
-            }
-            .title {
-                position: absolute;
-                letter-spacing: 5;
-                top: 10px;
-                left: 45;
-                color: antiquewhite;
-                text-align: left;
-                font-family:sans-serif;
-                font-weight: 150;
-                margin: 0;
-            }
-            .sub{
-                position: absolute;
-                letter-spacing: 5;
-                top: 54px;
-                left: 45;
-                color:white;
-                text-align: left;
-                font-family:sans-serif;
-                font-weight: 150;
-                margin: 0;
-            }
-            .edition{
-                position: absolute;
-                letter-spacing: 3;
-                top: 15px;
-                right: 4;
-                color:aliceblue;
-                text-align: right;
-                font-size: 8;
-                font-style:normal;
-                font-weight: 15;
-                margin: 0;
+<style>
+.container
+{
+    position: relative;
+display: block;
+margin-left: 35%;
+margin-right: 50%;
+    width: 300px;
+    height: 300px;
+}
+.background-image
+{
+   
+  
+    width: 260%;
+    height: 390%;
+  
+}
+.user
+{
+    position: absolute;
+    bottom: -690px;
+    right: -440px;
+    width: 190px;
+    height: auto;
+}
+.topic
+{
+    position: absolute;
+   top: 150px;
+   left: 50px;
+   color: azure;
+   font-style: italic;
+    font-size: 60px;
+}
+.sub-topic
+{
+    position: absolute;
+   top: 420px;
+   left: 50px;
+   color: azure;
+   font-style: italic;
+    font-size: 25px;
+}
+.line-below
+{
+    position: absolute;
+    top: 1030px;
+    left: 50px;
+    color: aliceblue;
+    font-style: normal;
+    font-size: 39px;
+}
+.line-above
+{
+    position: absolute;
+    top: 950px;
+    left: 50px;
+    color: aliceblue;
+    font-style: normal;
+    font-size: 30px;
+}
+.line--below
+{
+    position: absolute;
+    top: 1040px;
+    left: 610px;
+    color: aliceblue;
+    font-style: normal;
+    font-size: 30px;
+    font-style: bold;
+}
+.topon
+{
+    position: absolute;
+   top: 20px;
+   left: 50px;
+   color: azure;
+   font-style: italic;
+    font-size: 30px;
+}
 
-            }
-            .imag {
-                position: absolute; 
-                bottom: 10px; 
-                right: 15px; 
-                width: 80px; 
-                border-radius: 5%;
-                border: 2px solid rgb(223, 229, 230); 
-            }
-            .author {
-                position: absolute;
-                bottom: 8px;
-                left: 22px; /* Adjust to avoid overlapping with the image */
-                font-size: 13px;
-                font-family: Arial, Helvetica, sans-serif;
-                color: rgb(228, 241, 241);
-                letter-spacing: 3;
-                margin: 0;
-            }
-        </style>
-        <title>My Book</title>
+
+</style>
     </head>
     <body>
         <div class="container">
-            <h1 class="title">HR/RH</h1>
-            <h2 class="sub">APPLICATION <br>FOR <br><b>W</b><br><b>E</b><br><b>B</b><br><b></b>AND</b><br><b>CSS</b><br></h2></h2>
-            <img src="hari1.jpg" class="imag">
-            <h4 class="author">R HARI RAM</h4>
-            <h6 class="edition">25 EDITION</h6>
+            <img src="hari.jpg" alt="" class="background-image">
+            <img src="hari1.jpg" alt="" class="user">
+            <h1 class="topic">DESIGN OF WEB AND CSS</h1>
+            <h2 class="sub-topic">(With HTML and CSS)</h2>
+            <p class="line-above">TWENTY FIFTH EDITION</p>
+            <p class="line-below"><b>HARIRAM R</b></p>
+            <p class="line--below">SEC</p>
+            <p class="topon">EXPERT INSIGHT</p>
         </div>
     </body>
 </html>
+
 ```
 
 ## OUTPUT:
-![alt text](<Screenshot 2024-12-01 195700.png>)
+![alt text](<Screenshot 2024-12-02 204207.png>)
 
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
